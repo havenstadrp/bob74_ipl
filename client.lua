@@ -105,7 +105,7 @@ Citizen.CreateThread(function()
     BikerMethLab.LoadDefault()          -- Meth lab: 1009.5, -3196.6, -38.99682
     BikerWeedFarm.LoadDefault()         -- Weed farm: 1051.491, -3196.536, -39.14842
     BikerClubhouse1.LoadDefault()       -- 1107.04, -3157.399, -37.51859
-    BikerClubhouse2.LoadDefault()       -- 998.4809, -3164.711, -38.90733
+    -- BikerClubhouse2.LoadDefault()       -- 998.4809, -3164.711, -38.90733 -- thelostmc
 
     -- ====================================================================
     -- =---------------------- [DLC: Import/Export] ----------------------=
@@ -141,7 +141,7 @@ Citizen.CreateThread(function()
     -- =------------------- [DLC: Diamond Casino Resort] -----------------=
     -- ====================================================================
     if GetGameBuildNumber() >= 2060 then
-        DiamondCasino.LoadDefault()                -- 1100.000, 220.000, -50.000
+    --     DiamondCasino.LoadDefault()                -- 1100.000, 220.000, -50.000
         DiamondPenthouse.LoadDefault()             -- 976.636, 70.295, 115.164
     end
 
