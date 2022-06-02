@@ -8,8 +8,8 @@ DiamondCasino = {
             ipl = {
                 "hei_dlc_windows_casino",
                 "hei_dlc_casino_aircon",
-                "vw_dlc_casino_door",
-                "hei_dlc_casino_door"
+                -- "vw_dlc_casino_door",
+                -- "hei_dlc_casino_door"
             },
 
             Load = function()
