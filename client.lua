@@ -141,7 +141,7 @@ Citizen.CreateThread(function()
     -- ====================================================================
     if GetGameBuildNumber() >= 2060 then
         -- DiamondCasino.LoadDefault()                -- 1100.000, 220.000, -50.000
-        DiamondPenthouse.LoadDefault()             -- 976.636, 70.295, 115.164
+        -- DiamondPenthouse.LoadDefault()             -- 976.636, 70.295, 115.164
     end
 
     -- ====================================================================
